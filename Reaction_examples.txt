@@ -1,0 +1,42 @@
+
+reaction_28781: SP_27889_3 + 3 $SP_10_3 => SP_27890_3 + 3 $SP_11_3; r28781_k0*SP_27889_3*SP_10_3;
+reaction_28787: SP_27761_3 + SP_27_5 => SP_27889_3; r28787_k0*SP_27761_3*SP_27_5 - r28787_kd*SP_27889_3;
+reaction_28801: SP_27890_3 + 3 $SP_79_3 => SP_27889_3 + 3 $SP_80_3; r28801_k0*SP_27890_3*SP_79_3;
+SP_27889_3 is "Betacellulin receptor binding form[2x]:P[Y984;Y1022;Y1035;Y1056;Y1162;Y1188;Y1202;Y1208;Y1221;Y1242;Y1268;Y1284]-ERBB4-001[2x]:SHC1-001";
+  SP_27889_3 hasPart "http://identifiers.org/ensembl/ENSP00000342235",
+                     "http://identifiers.org/uniprot/Q15303",
+                     "http://identifiers.org/uniprot.name/ERBB4"
+  SP_27889_3 hasPart "http://identifiers.org/ensembl/ENSP00000357430",
+                     "http://identifiers.org/uniprot/P29353",
+                     "http://identifiers.org/uniprot.name/SHC1"
+
+SP_27890_3 is "Betacellulin receptor binding form[2x]:P[Y984;Y1022;Y1035;Y1056;Y1162;Y1188;Y1202;Y1208;Y1221;Y1242;Y1268;Y1284]-ERBB4-001[2x]:P[Y427;Y349;Y350]-SHC1-001";
+ SP_27_5 is "SHC1-001";
+
+ SP_27761_3 is "Betacellulin receptor binding form[2x]:P[Y984;Y1022;Y1035;Y1056;Y1162;Y1188;Y1202;Y1208;Y1221;Y1242;Y1268;Y1284]-ERBB4-001[2x]";
+ SP_27761_3 hasPart "http://identifiers.org/ensembl/ENSP00000342235",
+                     "http://identifiers.org/uniprot/Q15303",
+                     "http://identifiers.org/uniprot.name/ERBB4"
+
+reaction_28512: SP_27760_3 + 12 $SP_10_3 => SP_27761_3 + 12 $SP_11_3; r28512_k0*SP_27760_3*SP_10_3;
+SP_10_3 is "ATP";
+SP_11_3 is "ADP";
+SP_27760_3 is "Betacellulin receptor binding form[2x]:ERBB4-001[2x]";
+SP_27760_3 hasPart "http://identifiers.org/ensembl/ENSP00000342235",
+                     "http://identifiers.org/uniprot/Q15303",
+                     "http://identifiers.org/uniprot.name/ERBB4"
+
+reaction_28514: SP_7531_3 + SP_7531_3 + SP_3577_2 + SP_3577_2 => SP_27760_3; r28514_k0*SP_7531_3*SP_7531_3*SP_3577_2*SP_3577_2 - r28514_kd*SP_27760_3;
+
+SP_7531_3 is "ERBB4-001";
+SP_3577_2 is "Betacellulin receptor binding form";
+reaction_10545: SP_26_3 + SP_3577_2 + SP_754_3 => SP_18225_3; r10545_k0*SP_26_3*SP_3577_2*SP_754_3 - r10545_kd*SP_18225_3;
+SP_26_3 is "EGFR-001";
+SP_754_3 is "ERBB2-001";
+SP_18225_3 is "Betacellulin receptor binding form:EGFR-001:ERBB2-001";
+
+SP_18225_3 hasPart "http://identifiers.org/ensembl/ENSP00000275493",
+                     "http://identifiers.org/uniprot/P00533",
+                     "http://identifiers.org/uniprot.name/EGFR"
+SP_18225_3 hasPart "http://identifiers.org/ensembl/ENSP00000462438",
+                     "http://identifiers.org/uniprot.name/ERBB2"
